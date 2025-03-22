@@ -9,6 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class CourseRegistrationTest {
     private Course course;
     private Student student;
+    private String tEst;
 
     @BeforeEach
     public void setUp() {
