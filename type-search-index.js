@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"de.proseminar.github","l":"Course"},{"p":"de.proseminar.github","l":"Student"}];updateSearchResults();
