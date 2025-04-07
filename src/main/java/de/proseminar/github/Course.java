@@ -18,6 +18,10 @@ public class Course {
         students = new ArrayList<>();
     }
 
+    public boolean removeStudent(Student student) {
+        return students.remove(student);
+    }
+
     public boolean signUpStudent(Student student) {
         return students.add(student);
     }
