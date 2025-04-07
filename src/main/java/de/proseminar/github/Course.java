@@ -22,10 +22,6 @@ public class Course {
         return students.add(student);
     }
 
-    public boolean removeStudent(Student student) {
-        return students.remove(student);
-    }
-
     public boolean registerForExam(Student student, String currentDate) {
         try {
             Date current = DATE_FORMAT.parse(currentDate);

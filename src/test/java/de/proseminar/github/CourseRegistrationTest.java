@@ -22,12 +22,6 @@ public class CourseRegistrationTest {
     }
 
     @Test
-    void testRemoveStudent() {
-        course.signUpStudent(student);
-        assertTrue(course.removeStudent(student), "Student should be able to leave the course.");
-    }
-
-    @Test
     void testExamRegistrationBeforeDeadline() {
         course.signUpStudent(student);
         assertTrue(course.registerForExam(student, "17.03.2025"),
